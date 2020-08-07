@@ -1,0 +1,515 @@
+/*********************************************
+        FONTS;   Roboto, Oxygen
+        COLORS;  
+        #0a2004  Dark Green
+        #bdd299  Pale Green
+        #fdbb9f  Pale Orange
+        #e5eeda  Our White
+        #589507  Color Green
+*********************************************/
+
+
+/************************************
+        Header
+************************************/
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3EE;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.off  {
+    background-color: #0a2004;
+    width: 100%;
+    color: #e5eeda;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3px;
+}
+
+.off p {
+    font-family: 'Roboto';
+}
+
+.offspan {
+    color: #589507;
+    font-weight: bold;
+}
+
+.header-div {
+    min-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px auto;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #589507;
+    padding: 12.65px 31px;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.nav-bar a:hover {
+    background-color: #0a2004;
+    color: #fff;
+}
+
+
+.logo {
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.q {
+    color: #589507;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+
+
+
+/************************************
+        Hero Section
+************************************/
+.hero {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(farms.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.fresh {
+    margin-bottom: 20px;
+    font-weight: 350;
+    font-family: 'Roboto';
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+
+.dlc {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 70px;
+    text-transform: none;
+    font-size: 21px;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+
+.shop-now {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin: 0 auto;
+    color: #589507;
+    font-size: 1.1em;
+    border: 3px solid transparent;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: all .3s ease ;
+}
+
+.shop-now:hover {
+    background-color: #0a2004;
+    color: #fff;
+}
+
+
+/************************************
+        Gallery Section
+************************************/
+.gallery-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    height: 30vh;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.gallery-div {
+    width: 16%;
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+    color: #589507;
+}
+
+.gallery-div:hover {
+    color: #0a2004;
+}
+
+.gallery-div img {
+    width: 150px;
+    height: 100px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    filter: sepia(50%);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+.gallery-div img:hover {
+    padding: 0;
+    filter: none;
+}
+
+
+/************************************
+        Card Section
+************************************/
+.card-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    background-color: #F3F3EE;
+}
+
+.card-section div {
+    width: 49.5%;
+    height: 50vh;
+}
+
+.card-div1 { 
+    background-color: #ffbc50dc;
+}
+
+.card-div2 {
+    background-color: #cfee9be5;
+}
+
+.card-div2 h3 {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #589507;
+    font-size: 22px;
+}
+
+.card-div2 h1 {
+    margin-left: 40px;
+    color: #000;
+    font-size: 37px;
+    font-family: 'Raleway';
+}
+
+.card-div2 p {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Raleway';
+    text-transform: none;
+}
+
+.card-div1 h3 {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #ff7b00;
+    font-size: 22px;
+}
+
+.card-div1 h1 {
+    margin-left: 40px;
+    color: #000;
+    font-size: 37px;
+    font-family: 'Raleway';
+}
+
+.card-div1 p {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Raleway';
+    text-transform: none;
+}
+
+
+.card-section .img1 {
+    width: 250px;
+    height: 250px;
+    float: right;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.card-section .img2 {
+    width: 350px;
+    height: 350px;
+    float: right;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.mybtn {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    padding: 0.5em;
+    padding-left: 17px;
+    margin-left: 40px;
+    color: #589507;
+    font-size: 1.1em;
+    border: 3px solid transparent;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: all .3s ease ;
+}
+
+.card-div2 .mybtn:hover {
+    background-color: #0a2004;
+    color: #fff;
+}
+
+.card-div1 .mybtn:hover {
+    background-color: #ff7b00;
+    color: #fff;
+}
+
+
+
+/************************************
+        Display Section
+************************************/
+.display-section {
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.display-section h2, h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.display-section h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.display-section h4 {
+    color: #fff;
+    background-color: #589507;
+    width: 25%;
+    position: relative;
+    left: 37.5%;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.display-section h4:hover {
+    color: #74b61f9c;
+    background-color: #0a2004;
+    width: 25%;
+    position: relative;
+    left: 37.5%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.display-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.display-all p {
+    font-weight: bold;
+}
+
+.display-all p:nth-child(3) {
+    color: #589507;
+}
+
+.display-some {
+    width: 23%;
+    padding: 15px auto;
+}
+
+.display-div {
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.display-all img {
+    width: 250px;
+    height: 270px;  
+    padding: 15px;
+    filter: opacity(85%);
+    transition: all .3s linear;
+}
+
+.display-all img:hover {
+    width: 250px;
+    height: 270px;
+    padding: 0;
+    filter: opacity(100%);
+}
+
+
+
+/************************************
+        Contact & Follow           
+************************************/
+.contact-us {
+    width: 100%;
+    height: 20vh;
+    background-color: #0a2004;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+} 
+
+.contact-us h2 {
+    font-family: 'Lobster';
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.contact {
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.contact h2 {
+    margin-left: 50px;
+}
+
+
+.follow {
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.images {
+    margin-left: 100px;
+}
+
+.contact-email {
+    margin: 10px auto;
+    padding: 12px;
+    width: 250px;
+    background-color: #fff;
+}
+
+.sign-up {
+    padding: 10px 20px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: all .3s linear;
+
+}
+
+.sign-up:hover {
+    border-radius: 20px;
+    background-color: #589507;
+    color: #fff;
+}
+
+.follow img {
+    margin: 10px 5px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    transition: all .3s ease;
+}
+
+.follow img:hover {
+    margin: 10px 5px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+
+
+/************************************
+        Footer 
+************************************/
+footer {
+    width: inherit;
+    height: 5vh;
+    background-color: #0a2004;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer span {
+    color: #589507;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
